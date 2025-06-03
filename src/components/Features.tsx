@@ -1,4 +1,3 @@
-import React from 'react'
 import BentoCard from './BentoCard'
 import BentoTilt from './BentoTilt'
 import { TiLocationArrow } from 'react-icons/ti'
