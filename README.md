@@ -1,54 +1,106 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🕹️ Zentry Clone – Award-Winning Website Rebuild
 
-Currently, two official plugins are available:
+This project is a **faithful recreation of [Zentry.com](https://zentry.com/)** — one of the most visually stunning and immersive gaming websites, known for winning awards on platforms like Awwwards.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Deployed on Vercel](https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel&logoColor=white)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🔗 Live Demo
+
+👉 [View the Live Site](https://award-website-rust.vercel.app/)
+
+---
+
+## 📌 About the Project
+
+Zentry.com sets the bar for next-gen web experiences in the gaming world. This rebuild is meant to:
+
+- Showcase mastery of advanced frontend tools
+- Demonstrate creative animation skills
+- Reimagine a premium website using clean, maintainable code
+
+✨ **Highlights**:
+- Scroll-triggered `clip-path` video transitions
+- Animated buttons with hover distortion
+- GSAP-driven video layer switching
+- Custom fonts and pixel-perfect styling
+- Mobile-responsive layout and Bento-style sections
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool           | Purpose                               |
+|----------------|----------------------------------------|
+| **React**      | UI Framework                           |
+| **Vite**       | Lightning-fast dev/build tool          |
+| **Tailwind CSS** | Utility-first styling               |
+| **GSAP**       | Animation & ScrollTrigger effects      |
+| **TypeScript** | Type-safe development                  |
+
+---
+
+## 📁 Project Structure
+
+```
+hammamyousef-award-website/
+├── public/            # Assets: fonts, images, videos
+├── src/
+│   ├── components/    # Modular, reusable UI components
+│   ├── App.tsx        # Main entry point
+│   └── index.css      # Tailwind + global styles
+├── vite.config.ts     # Vite configuration
+└── index.html         # Base HTML structure
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📦 Installation
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+# Clone this repo
+git clone https://github.com/your-username/hammamyousef-award-website.git
+
+# Navigate into the directory
+cd hammamyousef-award-website
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
 ```
+
+---
+
+## 🔨 Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 📬 Contact
+
+Made with ❤️ by Hammam Yousef  
+📧 eng.hammam.yousef@gmail.com  
+🌐 [LinkedIn](https://www.linkedin.com/in/hammam-yousef-7029a82a8/)
+
+---
+
+## ⚠️ Disclaimer
+
+This project is **not affiliated** with or endorsed by Zentry.  
+It was built **for educational and portfolio use only** as a frontend animation and design exercise.
+
+All rights to Zentry’s original design belong to their respective creators.
+
